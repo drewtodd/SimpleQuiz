@@ -43,9 +43,9 @@ function returnResults() {
 
         for (i = 1; i <= total; i++) {
             if (eval('q' + i) == answers[i-1]) {
-                score ++;
+                score ++; // Add to the correct answers
             } else {
-                wrongAnswers.push(eval('question' + i).id);
+                wrongAnswers.push(eval('question' + i).id); // Make a note of the wrong answers
             }
         }
 
