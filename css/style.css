@@ -1,0 +1,114 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+}
+
+body {
+    background: #ccc;
+    color: #333;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+h1 strong {
+    color: #69c;
+    text-shadow: 0px 4px 6px rgba(127, 127, 127, 0.4);
+}
+
+#container {
+    background: #eee;
+    width: 60%;
+    margin: 20px auto;
+    padding: 40px;
+    border-radius: 4px;
+}
+
+.question, .results, .validation-error {
+    padding: 12px;
+    margin: 12px 0 12px 0;
+    border-radius: 8px;
+    background: #ddd;
+}
+
+label {
+    padding: 12px;
+    border: solid 2px;
+    border-color: transparent;
+    display: inline;
+    position: relative;
+}
+
+.option:hover {
+    background: #ccc;
+    border: solid 2px #eee;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #333;
+    box-shadow: 0px 4px 12px rgba(127, 127, 127, 0.2);
+}
+
+.results {
+    background: #69c;
+    border: 2px solid #9cf;
+    color: #eee;
+    display: none;
+}
+
+#validationPanel {
+    display: none;
+}
+
+.validation-error {
+    background: #fc0;
+}
+
+.wrong-answer {
+    background: #9cf;
+}
+
+input[type=radio] {
+    cursor: pointer;
+}
+
+input[type=submit] {
+    padding: 12px;
+    margin: 0;
+    background-color: #69c;
+    border: 2px solid #9cf;
+    border-radius: 8px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    color: #ddd;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #6c9dcf;
+    border: 2px solid #cdf;
+    color: #e0e0e0;
+}
+
+input[type=submit]:focus {
+    background-color: #369;
+    border: 2px solid #69c;
+    color: #ccc;
+}
+
+input[type=submit]:disabled {
+    background-color: #ccc;
+    border: 2px solid #999;
+    color: #999;
+}
+
+.boo {
+    background: #c00 url(../img/angry-face.png) no-repeat right;
+}
+
+.meh {
+    background: #0c0 url(../img/monkey.png) no-repeat right;
+}
+
+.yay {
+    background: #69c url(../img/fist-bump.png) no-repeat right;
+}
